@@ -1,0 +1,17 @@
+<resources>
+
+    <string name="app_name">Answerdash SDK Demo</string>
+
+    <string name="tab_home">Home</string>
+    <string name="tab_list">List</string>
+    <string name="tab_custom">Custom</string>
+
+    <string name="fragment_home_text">\'The number of our users engaging with AnswerDash proves its value.\'</string>
+    <string name="fragment_home_author">- Dan Demas, VP of Customer Success</string>
+
+    <string name="fragment_custom_title">Breaking news!</string>
+    <string name="fragment_custom_text">MOO and AnswerDash win globally recognized ICMI Award for Best Use of Technology!</string>
+    <string name="fragment_custom_button_text">Do you need some help?</string>
+    <string name="fragment_custom_hint_text">You can also hook up any custom UI element to the AnswerDash view!</string>
+
+</resources>
