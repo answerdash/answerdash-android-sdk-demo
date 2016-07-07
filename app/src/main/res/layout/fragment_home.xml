@@ -8,50 +8,56 @@
              android:padding="@dimen/fragment_home_padding"
              tools:context=".MainActivity">
 
-    <RelativeLayout
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center">
+        android:layout_height="match_parent"
+        android:fillViewport="true">
 
-        <ImageView
-            android:id="@+id/imageCoolVendor"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentTop="true"
-            android:layout_centerHorizontal="true"
-            android:contentDescription="@null"
-            android:src="@drawable/cool_vendor"/>
-
-        <TextView
-            android:id="@+id/text"
+        <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/imageCoolVendor"
-            android:layout_marginBottom="16dp"
-            android:gravity="center"
-            android:paddingLeft="16dp"
-            android:paddingRight="16dp"
-            android:text="@string/fragment_home_text"/>
+            android:layout_height="wrap_content">
 
-        <TextView
-            android:id="@+id/author"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/text"
-            android:layout_centerHorizontal="true"
-            android:gravity="center"
-            android:text="@string/fragment_home_author"
-            android:textStyle="italic"/>
+            <ImageView
+                android:id="@+id/imageCoolVendor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/fragment_image_top_margin"
+                android:contentDescription="@null"
+                android:src="@drawable/cool_vendor"/>
 
-        <ImageView
-            android:id="@+id/imageActOn"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/author"
-            android:layout_centerHorizontal="true"
-            android:contentDescription="@null"
-            android:src="@drawable/act_on"/>
-    </RelativeLayout>
+            <TextView
+                android:id="@+id/text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageCoolVendor"
+                android:layout_marginBottom="16dp"
+                android:gravity="center"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:text="@string/fragment_home_text"/>
+
+            <TextView
+                android:id="@+id/author"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:text="@string/fragment_home_author"
+                android:textStyle="italic"/>
+
+            <ImageView
+                android:id="@+id/imageActOn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/author"
+                android:layout_centerHorizontal="true"
+                android:contentDescription="@null"
+                android:src="@drawable/act_on"/>
+        </RelativeLayout>
+    </ScrollView>
 
     <com.answerdash.android.sdk.AnswerDashButton
         android:layout_width="wrap_content"
