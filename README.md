@@ -10,7 +10,34 @@ The minimum Android SDK version (minSdkVersion) is 16 (JellyBean - Android 4.1.x
 
 ## Installation
 
-TODO - after testrun with mavenCentral and jCenter
+Currently the library is available as an .aar library. In the near future it will be available through maven as well.
+
+* download library file (answerdash-android-sdk.aar)
+* in your app module, create a new folder (or use the existing one) called libs and put the .aar file in there
+* in the gradle build file, modify the repositories section so it looks like this
+```
+repositories {
+        ...
+        flatDir {
+            dirs 'libs'
+        }
+    }
+```
+* modify the dependencies section (note that if you renamed the .aar file, you have to use the correct name over here)
+```
+dependencies {
+...
+...
+    compile 'com.android.support:support-annotations:24.0.0'
+    compile 'com.android.support:design:24.0.0'
+    compile 'com.android.support:cardview-v7:24.0.0'
+    compile 'com.android.support:percent:24.0.0'
+
+    compile(name: 'answerdash-android-sdk', ext: 'aar', version: '1.0')
+}
+    
+```
+note that if you use a different compileSdkVersion than 24, you have to use the correct version for the support imports as well, e.g. com.android.support:support-annotations:23.3.0 for compileSdkVersion 23
 
 ## Usage
 
