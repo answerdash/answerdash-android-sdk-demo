@@ -28,7 +28,7 @@ repositories {
 dependencies {
 ...
 ...
-    compile 'com.android.support:support-annotations:24.0.0'
+    compile 'com.android.support:appcompat-v7:24.0.0'
     compile 'com.android.support:design:24.0.0'
     compile 'com.android.support:cardview-v7:24.0.0'
     compile 'com.android.support:percent:24.0.0'
