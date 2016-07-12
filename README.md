@@ -140,4 +140,4 @@ You can reach the AnswerDash team at any time by emailing [support@answerdash.co
 
 ## License
 
-AnswerDashSDK is licensed under the [AnswerDash SDK License](https://github.com/answerdash/answerdash-android-sdk-demo/LICENSE.md).
+AnswerDashSDK is licensed under the [AnswerDash SDK License](https://github.com/answerdash/release-notes/blob/master/LICENSE.md).
