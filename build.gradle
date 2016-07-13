@@ -18,6 +18,9 @@ allprojects {
         flatDir {
             dirs 'libs'
         }
+        maven {
+            url "https://repo.answerdash.com/releases"
+        }
     }
 }
 
