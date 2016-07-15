@@ -26,7 +26,7 @@ repositories {
 dependencies {
 ...
 ...
-    compile 'com.answerdash:android-sdk:0.2.0'
+    compile 'com.answerdash.android:answerdash-sdk:0.2.1'
 }
     
 ```
