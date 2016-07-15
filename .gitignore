@@ -48,3 +48,5 @@ captures/
 *.jks
 
 
+/.project
+*.gitignore
