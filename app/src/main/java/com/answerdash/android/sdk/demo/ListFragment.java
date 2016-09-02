@@ -39,9 +39,6 @@ public class ListFragment extends Fragment {
 
         final AnswerDashButton helpButton = (AnswerDashButton) view.findViewById(R.id.helpButton);
         helpButton.setBorderColor(ContextCompat.getColor(getContext(), android.R.color.transparent));
-        helpButton.setFillColor(ContextCompat.getColor(getContext(), R.color.colorPrimary));
-        helpButton.setIconColor(ContextCompat.getColor(getContext(), android.R.color.white));
-        helpButton.setFillColorSelected(ContextCompat.getColor(getContext(), android.R.color.white));
     }
 
     private static class CountryAdapter extends RecyclerView.Adapter<CountryViewHolder> {

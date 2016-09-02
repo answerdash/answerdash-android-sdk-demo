@@ -55,7 +55,7 @@
             android:layout_centerHorizontal="true"
             android:layout_marginBottom="24dp"
             android:clickable="true"
-            app:cardBackgroundColor="@color/colorPrimary"
+            app:cardBackgroundColor="@color/aqua"
             app:cardCornerRadius="10dp"
             app:cardElevation="0dp"
             app:cardPreventCornerOverlap="false"
@@ -64,7 +64,7 @@
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@color/colorPrimary"
+                android:background="@color/aqua"
                 android:clickable="false"
                 android:ellipsize="end"
                 android:gravity="center"

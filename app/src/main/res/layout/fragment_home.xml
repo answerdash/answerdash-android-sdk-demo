@@ -63,8 +63,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|end"
         app:borderColor="@android:color/transparent"
-        app:fillColor="@color/colorPrimary"
-        app:fillColorSelected="@color/colorPrimaryDark"
+        app:fillColor="@color/aqua"
         app:iconColor="@android:color/white"/>
 
 </FrameLayout>
