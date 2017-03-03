@@ -1,4 +1,4 @@
-Copyright (c) 2016, AnswerDash, Inc.  
+Copyright (c) 2017, AnswerDash, Inc.  
 All rights reserved.
 
 By downloading or using the AnswerDash Mobile SDK, You agree to the [AnswerDash Terms of Use](http://www.answerdash.com/tou) and acknowledge that such terms govern Your use of and access to the Mobile SDK.
