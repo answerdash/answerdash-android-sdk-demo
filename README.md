@@ -1,4 +1,4 @@
-# AnswerDash Android SDK Demo
+# AnswerDash Android SDK
 
 This repository contains a demo application that integrates AnswerDash Android SDK released by [AnswerDash](http://www.answerdash.com).
 
